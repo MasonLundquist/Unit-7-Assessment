@@ -1,0 +1,26 @@
+Results for the extraLargeArray
+insert 967.1632 ms
+append 3.3556 ms
+
+Results for the tinyArray
+insert 39.4 μs
+append 86.8 μs
+
+Results for the smallArray
+insert 49.9 μs
+append 94.7 μs
+
+Results for the mediumArray
+insert 186.1 μs
+append 206.1 μs
+
+Results for the largeArray
+insert 8.0699 ms
+append 562.8 μs
+
+Results for the extraLargeArray
+insert 967.7393 ms
+append 3.4308 ms
+
+
+The scale seems to be that the larger array the longer the append time, while inversely the larger the array thet shorter the insert time.
